@@ -1,0 +1,7 @@
+train: ../yolov5/data/custom_dataset/images/train/  # train images (relative to 'path') 128 images
+val: ../yolov5/data/custom_dataset/images/val/ # val images (relative to 'path') 128 images
+
+
+# Classes
+nc:  3 # number of classes
+names: ['glasses', 'lipsticks', 'sunscreen']  # class names
